@@ -1,0 +1,61 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* /reset/ */
+body{
+  color: lightgray;
+}
+h2{
+  font-size: 1em;
+}
+.menu_left, .menu_right{
+  display: inline-block;
+  padding: 15px;
+}
+.menu_right{
+  text-align: center;
+}
+
+h2{
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+}
+h2:hover{
+  color: black;
+}
+.subMenu {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+#login, #app{
+  display: inline-block;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+#app{
+  color: white;
+  background-color: black;
+}
+#app:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#login{
+  color: black;
+  background-color: lightgray;
+}
+#login:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* active class */
+.active{
+  display: block;
+}
